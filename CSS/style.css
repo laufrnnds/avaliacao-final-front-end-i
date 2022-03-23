@@ -45,19 +45,19 @@ article#botoes a:link {
   padding-top: 20px;
 }
 
-#pg-atual {
+.pg-atual {
   color: white;
   font-size: 1.7vw;
   text-align: center;
 }
 
-#pg-outras {
+.pg-outras {
   color: #354666;
   font-size: 1.7vw;
   text-align: center;
 }
 
-#pg-outras:hover {
+.pg-outras:hover {
   color: #366479;
 }
 
