@@ -84,7 +84,7 @@ h1 {
   color: #379f9e;
 }
 
-p#dados-pessoais,
+#dados-pessoais p,
 #telefone,
 #descricao,
 #redes-sociais{
@@ -204,7 +204,7 @@ h2 {
   padding: 0px 5px 0px 0px;
 }
 
-p#texto {
+p#texto{
   font-size: 18px;
   padding: 4px 0px 4px 0px;
   color: #354666;
