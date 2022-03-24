@@ -25,7 +25,7 @@ main {
 
 .navegacao,
 figure.navegacao,
-article#botoes a:link {
+#botoes a:link {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -45,7 +45,7 @@ article#botoes a:link {
   padding-top: 20px;
 }
 
-.pg-atual {
+#pg-atual {
   color: white;
   font-size: 1.7vw;
   text-align: center;
@@ -84,7 +84,7 @@ h1 {
   color: #379f9e;
 }
 
-#dados-pessoais p,
+p#dados-pessoais,
 #telefone,
 #descricao,
 #redes-sociais{
