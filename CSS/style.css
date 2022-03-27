@@ -87,7 +87,7 @@ h1 {
 #dados-pessoais p,
 #telefone,
 #descricao,
-#redes-sociais{
+#redes-sociais {
   font-size: 16px;
   font-weight: bold;
   padding: 4px 0px 4px 0px;
@@ -154,10 +154,15 @@ h1 {
   margin-bottom: 10px;
 }
 
-#itens {
+ol#lista-tipo {
+  margin-left: 10px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+li.li-lista {
+  margin-left: 5px;
 }
 
 .tipo {
@@ -168,7 +173,7 @@ h1 {
   text-align: center;
   color: #366479;
   font-weight: bolder;
-  width: 22.5vw;
+  width: 22vw;
   height: 22vh;
   margin: 5px 0px 0px 5px;
 }
@@ -191,26 +196,27 @@ figcaption {
 }
 
 h2 {
-  font-size: 1.7vw;
+  font-size: 1.5vw;
   font-weight: bold;
   color: #366479;
 }
 
-#objetivos{
-  
+#objetivos {
   width: 90%;
   height: 150%;
   margin-top: 5px;
   padding: 0px 5px 0px 0px;
 }
 
-p#texto{
-  font-size: 18px;
-  padding: 4px 0px 4px 0px;
+ul#texto {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
   color: #354666;
   text-align: justify;
 }
 
-i, strong{
-  color:#366479;
+i,
+strong {
+  color: #366479;
 }
